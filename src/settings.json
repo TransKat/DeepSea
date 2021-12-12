@@ -1,6 +1,10 @@
 {
-    "version": "3.4.2",
+    "version": "3.5.0",
     "packages":{
+        "ultra-minimal":{
+            "active": true,
+            "modules": ["atmosphere", "hekate"]
+        },
         "minimal":{
             "active": true,
             "modules": ["atmosphere", "hekate", "deepseaAssets", "hb-appstore"]
@@ -8,7 +12,7 @@
         "normal":{
             "active": true,
             "modules": [
-                "atmosphere", "hekate", "deepseaAssets", "hb-appstore", 
+                "atmosphere", "hekate", "deepseaAssets", "hb-appstore",
                 "deepseaToolbox", "deepseaCleaner",
                 "aioUpdater", "edizon", "emuiibo", "jksv", "nxmtp", "tinwoo",
                 "sys-ftpd-light", "nx-ovlloader", "ovl-sysmodules", "Tesla-Menu",
@@ -18,7 +22,7 @@
         "advanced":{
             "active": true,
             "modules": [
-                "atmosphere", "hekate", "deepseaAssets", "hb-appstore", 
+                "atmosphere", "hekate", "deepseaAssets", "hb-appstore",
                 "deepseaToolbox", "deepseaCleaner",
                 "aioUpdater", "edizon", "emuiibo", "jksv", "nxmtp", "tinwoo",
                 "sys-clk", "sys-con","sys-ftpd-light",
